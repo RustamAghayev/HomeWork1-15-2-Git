@@ -100,6 +100,10 @@
 //int fournumber = (int)Math.Pow(threenumber, 2);
 
 //Console.WriteLine(fournumber);
+
+/*
+  verilmihs 5 reqemli ilk ve son reqemlerinin ceminin kvadrati
+ */
 #endregion
 #region task 5
 //l1:
@@ -119,4 +123,95 @@
 //int threenumber = num1 * 10;
 //int fournumber = threenumber + onenumber;
 //Console.WriteLine(fournumber);
+
+/*
+ verilmihs 6 reqemli ededin 1 ci reqemini hemin ededin axirina at.
+*/
+#endregion
+#region task 6
+//l1:
+//Console.WriteLine("8 reqemli ededi daxil edin:   ");
+//string numain = Console.ReadLine();
+//if (!int.TryParse(numain, out int mainnumber))
+//{
+//    goto l1;
+//}
+//int NumberLong = (int)Math.Log10(mainnumber) + 1;
+
+//if (NumberLong != 8)
+//{
+//    goto l1;
+//}
+//int onenumber = mainnumber % 10000000;
+//int threenumber = onenumber / 10;
+//Console.WriteLine(threenumber);
+
+
+/*
+ verilmihs 8 reqemli ededin ilk I ve axirinci reqemlerini legv et
+*/
+
+#endregion
+#region task 7
+//int mainnumber;
+//int residue;
+//int newresult = 0;
+//l1:
+//Console.WriteLine("4 reqemli ededi daxil edin:   ");
+//string numain = Console.ReadLine();
+//if (!int.TryParse(numain, out mainnumber))
+//{
+//    goto l1;
+//}
+//int NumberLong = (int)Math.Log10(mainnumber) + 1;
+
+//if (NumberLong != 4)
+//{
+//    goto l1;
+//}
+//while (mainnumber > 0)
+//{
+//    residue = mainnumber % 10;
+//    newresult = newresult * 10 + residue;
+
+//    mainnumber /= 10;
+//}
+
+//int number = newresult + 80000;
+//int finishnumber = number * 10 + 8;
+//Console.WriteLine(finishnumber);
+
+/*
+ verilmihs 4 reqemli ededin tersine duzub axirina ve evveline 8 artir
+*/
+#endregion
+#region task 8
+//int mainnumber;
+//l1:
+//Console.Write("6 reqemli ededi daxil edin: ");
+//string numain = Console.ReadLine();
+//if (!int.TryParse(numain, out mainnumber))
+//{
+//    goto l1;
+//}
+//int NumberLong = (int)Math.Log10(mainnumber) + 1;
+
+//if (NumberLong != 6)
+//{
+//    goto l1;
+//}
+
+
+//int residue = mainnumber % 1000;
+//int result = residue / 100;
+
+//int resultwo = mainnumber % 10;
+
+//int resultfinish = result + resultwo;
+//Console.WriteLine(resultfinish);
+
+/*
+ Verilmis ededdin axirdan 3-cu reqemi ile sonuncu reqeminin cemini tap  
+ */
+
 #endregion
