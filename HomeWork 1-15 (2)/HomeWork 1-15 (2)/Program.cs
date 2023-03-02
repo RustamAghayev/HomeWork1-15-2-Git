@@ -215,3 +215,126 @@
  */
 
 #endregion
+#region task 9
+//int mainnumber;
+//int residue;
+
+//l1:
+//Console.WriteLine("ededi daxil edin:   ");
+////string numain = Console.ReadLine();
+//if (!int.TryParse(Console.ReadLine(), out mainnumber))
+//{
+//    goto l1;
+//}
+//int newresult = 0;
+
+
+//while (mainnumber > 0)
+//{
+//    residue = mainnumber % 10;
+//    mainnumber /= 10;
+//    newresult = newresult * 10 + residue;
+
+//}
+
+//mainnumber = newresult;
+//newresult = 0;
+
+//bool going = true;
+
+//while (mainnumber > 0)
+//{
+//    residue = mainnumber % 10;
+//    mainnumber /= 10;
+
+
+//    if (going == true)
+//    {
+//        going = !going;
+//        continue;
+//    }
+
+//    going = !going;
+//    newresult = newresult * 10 + residue;
+
+//}
+
+//Console.WriteLine(newresult);
+
+
+/*
+   9 reqemli ededdin tek yerde dayananlardan bir eded duzlet: 132346389=12439
+ */
+#endregion
+#region task 10
+//int mainnumber;
+//int residue;
+
+//l1:
+//Console.WriteLine("ededi daxil edin:   ");
+////string numain = Console.ReadLine();
+//if (!int.TryParse(Console.ReadLine(), out mainnumber))
+//{
+//    goto l1;
+//}
+//int newresult = 0;
+
+
+//while (mainnumber > 0)
+//{
+//    residue = mainnumber % 10;
+//    mainnumber /= 10;
+//    newresult = newresult * 10 + residue;
+
+//}
+
+//mainnumber = newresult;
+//int mainnumber2 = newresult;
+//newresult = 0;
+//int newresult2 = 0;
+
+//bool going = true;
+
+//while (mainnumber > 0)
+//{
+//    residue = mainnumber % 10;
+//    mainnumber /= 10;
+
+
+//    if (going == true)
+//    {
+//        going = !going;
+//        continue;
+//    }
+
+//    going = !going;
+//    newresult = newresult * 10 + residue;
+
+//}
+//while (mainnumber2 > 0)
+//{
+//    residue = mainnumber2 % 10;
+//    mainnumber2 /= 10;
+
+
+//    if (going == false)
+//    {
+//        going = !going;
+//        continue;
+//    }
+
+//    going = !going;
+//    newresult2 = newresult2 * 10 + residue;
+
+//}
+//int resultmain = newresult + newresult2;
+//Console.WriteLine(resultmain);
+
+/*
+  9 reqemli ededdi tek yerde dayananlardan bir eded duzlet,
+    sonra cut yerde dayanlarinda bir eded duzlet,
+    sonra onlari topla
+ */
+
+
+#endregion
