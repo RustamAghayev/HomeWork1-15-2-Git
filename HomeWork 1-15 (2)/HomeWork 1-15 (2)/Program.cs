@@ -677,3 +677,62 @@
     Neticeden 18% cix.
  */
 #endregion
+#region Task 15
+//    Console.Write(" ededi daxil et: ");
+
+//    if (!int.TryParse(Console.ReadLine(), out int fifthvalue))
+//    {
+//        Console.Write("ededi duzgun daxil edilmemisdir ");
+//        goto l5;
+//    }
+//    if (((int)Math.Log10(fifthvalue) + 1) != 7)
+//    {
+//        Console.Write("ededi duzgun daxil edilmemisdir ");
+//        goto l5;
+//    }
+//    int stepFirst = value + scndValue;
+//    int stepTwo = (int)Math.Pow(stepFirst % 100, 2);
+//    int stepThree = stepTwo + (value * 1000 + scndValue);
+//    int stepFour = stepThree - fifthvalue % 100000;
+//    int stepFive = (thirdvalue + valueFour) % 1000;
+//    int stepSix = stepFour + stepFive;
+//    int sum = 0;
+//    int newnumber = fifthvalue;
+//    while (fifthvalue > 0)
+//    {
+//        int remainder = fifthvalue % 10;
+//        fifthvalue /= 10;
+//        sum += remainder;
+
+//    }
+//    int sum2 = 0;
+//    while (sum > 0)
+//    {
+//        int remainder = sum % 10;
+//        sum /= 10;
+//        sum2 = sum2 * 10 + remainder;
+//    }
+//    int stepSeven = stepSix + sum2;
+//    int step = stepSeven * 100 + 11;
+//    int sum3 = 0;
+//    while (newnumber > 0)
+//    {
+//        int remainder = newnumber % 10;
+//        newnumber /= 100;
+//        sum3 = sum3 * 10 + remainder;
+
+//    }
+//    int sum4 = 0;
+//    while (sum3 > 0)
+//    {
+//        int remainder = sum3 % 10;
+//        sum3 /= 10;
+//        sum4 = sum4 * 10 + remainder;
+//    }
+//    long lastStep = step - sum4;
+//    long persent = (long)lastStep % 10;
+//    long result = 1000 * (lastStep / 10) + 880 + persent;
+
+//    Console.WriteLine(lastStep);
+//    Console.WriteLine(result);
+#endregion
